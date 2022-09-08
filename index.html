@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    
+    <title>Ex Bicicleta</title>
+
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial;
+            padding-top: 20px;
+            background-color: darkcyan;
+        }
+
+        .fundo{
+
+            background: black;
+            border-radius: 50px;
+            
+            
+        }
+
+        .text{
+            color: white;
+            padding: 5px;
+        }
+        .negrito{
+            color: darkgoldenrod;
+        }
+
+        .comprar{
+            text-decoration: none;
+            background-color: darkgoldenrod;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+    <script>
+      function message(){
+        alert('Você será redirecionado para a página de compra!');
+      }
+    </script>
+
+</head>
+<body>
+ 
+ <h1 class="titulo">Carros . Bicicletas . Motos</h1>
+ 
+ <div class="fundo">
+    <h2 class="text">Carro: <strong class="negrito">R$80.000</strong></h2>
+   <p class="text">Parcelado em quntas vezes <strong class="negrito">você</strong> prefirir e apenas <strong class="negrito">200 km</strong> rodados.</p> 
+   <button class="comprar" onclick="message()" value="Exibir Mensagem">COMPRAR</button> 
+</div>
+
+<div class="fundo">
+    <h2 class="text">Bicicleta: <strong class="negrito">R$80.000</strong></h2>
+   <p class="text">Parcelado em quantas vezes <strong class="negrito">você</strong> prefirir e apenas <strong class="negrito">200 km</strong> rodados.</p> 
+   <button class="comprar" onclick="message()" value="Exibir Mensagem">COMPRAR</button>
+</div>
+
+<div class="fundo">
+    <h2 class="text">Moto: <strong class="negrito">R$80.000</strong></h2>
+   <p class="text">Parcelado em quntas vezes <strong class="negrito">você</strong> prefirir e apenas <strong class="negrito">200 km</strong> rodados.</p> 
+   <button class="comprar" onclick="message()" value="Exibir Mensagem">COMPRAR</button> 
+</div>
+
+</body>
+</html>
